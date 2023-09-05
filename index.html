@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Kael - Software Engineer & Web Developer Portfolio</title>
+  <meta name="title" content="Kael - Software Engineer & Web Developer Portfolio.">
+  <meta name="description" content="This is a portfolio for Kael Finley">
+
+  <!-- 
+    - favicon
+  -->
+  <!--<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">-->
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+  <!-- 
+    - preload images
+  -->
+  <!--<link rel="preload" as="image" href="./assets/images/hero-banner.jpg">-->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!--<img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Kael home">-->
+        Kael Finley
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <!--<img src="./assets/images/logo-light.svg" width="64" height="24" alt="Kael home">-->
+            Kael Finley
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">kaelfinley@hotmail.co.uk</a>
+
+          <a href="tel:001234567890" class="contact-link">07507777460</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="dark-mode">
+              <ion-icon name="moon-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/profile-pic.png" width="500" height="500" alt="Kael" class="w-100"
+              data-reveal="top">
+
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Software Engineer <br> & </br> Web Developer
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Kael, a software engineer and web developer based in Liverpool.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <!--<a href="#" class="btn btn-primary">Resume</a>-->
+              <button
+                class="btn btn-primary"
+                onclick="window.open('./assets/Kael_Finley_CV.pdf')">
+                Download CV
+              </button>
+
+              <a href="#" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">About Me</h2>
+
+              <p class="section-text">
+                I'm Kael, a software engineer and web developer dedicated to creating impactful digital solutions.
+                With a strong foundation in programming, web development, and problem-solving, I excel in both front-end and back-end development.
+              </p>
+              <p class="section-text">
+                I'm eager for the opportunity to collaborate on meaningful projects, learn from experienced professionals, and contribute my problem-solving abilities to the team.
+                Adaptability is one of my strengths, and I'm always ready to tackle new challenges head-on.
+              </p>
+              <p class="section-text">
+                Please explore my portfolio to view projects showcasing my abilities.
+                Whether for collaboration or inquiries, I'm ready to discuss how I can contribute to your team or project.
+              </p>
+
+              <h2 class="h2 education-title">Education</h2>
+
+              <div class="education-card">
+
+                <div class="education-content" data-reveal="left">
+                  
+                  <p class="section-text">
+                    <b>Liverpool University</b><br />B.Sc. Bachelors Degree 1st class<br />Software Development with Computer Science
+                  </p>
+    
+                </div>
+
+                <div class="education-content" data-reveal="right">
+                  
+                  <p class="section-text">
+                    <b>City of Liverpool College</b><br />BTEC Level 3 Extended Diploma in IT<br />D*D*D*
+                  </p>
+    
+                </div>
+
+                
+  
+    
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+
+      <section class="section skills" aria-labelledby="skills-label" id="skills">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="skills-label">Skills</h2>
+
+              <p class="section-text">
+                Here are some of the skills I've developed during my software & web developing journey.
+              </p>
+
+              <ul class="grid-list">
+                <li>
+                  <div class="skill-card">
+
+                    <div class="education-content" data-reveal="left">
+                      
+                      <h3 class="h3 card-title">Frontend</h3>
+    
+                      <div class="container-icons">
+                        <div class="box-icon">
+                          <i class="devicon devicon-html5-plain" aria-hidden="true"></i>
+                          <p>HTML5</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-css3-plain" aria-hidden="true"></i>
+                          <p>CSS3</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-javascript-plain" aria-hidden="true"></i>
+                          <p>JavaScript</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-react-plain" aria-hidden="true"></i>
+                          <p>React</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-card">
+                    <div class="education-content" data-reveal="left">
+                      
+                      <h3 class="h3 card-title">Backend</h3>
+    
+                      <div class="container-icons">
+                        <div class="box-icon">
+                          <i class="devicon devicon-csharp-plain" aria-hidden="true"></i>
+                          <p>C#</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-python-plain" aria-hidden="true"></i>
+                          <p>Python</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-java-plain" aria-hidden="true"></i>
+                          <p>Java</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-nodejs-plain" aria-hidden="true"></i>
+                          <p>NodeJS</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-mysql-plain" aria-hidden="true"></i>
+                          <p>MySQL</p>
+                        </div>
+                        <div class="box-icon">
+                          <i class="devicon devicon-mongodb-plain" aria-hidden="true"></i>
+                          <p>MongoDB</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Projects (WIP)</h2>
+
+              <p class="section-text">
+                These projects showcase my skills with a wide range of technologies and ability to meet potential client needs through technical competence and effective problem-solving.
+                Each project is designed to provide impactful solutions that not only create great user experiences but also contribute to achieving business objectives.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Website</p>
+
+                  <h3 class="h3 card-title">E-Commerce Website</h3>
+
+                  <p class="card-text">
+                    Developed a feature-rich e-commerce website allowing users to browse and purchase products securely.
+                    Implemented user authentication, a product catalog, shopping cart functionality, and payment processing.
+
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Website</p>
+
+                  <h3 class="h3 card-title">Task Management App</h3>
+
+                  <p class="card-text">
+                    Created a task management application that helps users organize and track their tasks.
+                    Features include user authentication, task creation, status updates, and notifications.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Website</p>
+
+                  <h3 class="h3 card-title">Recipe Finder</h3>
+
+                  <p class="card-text">
+                    Built a recipe finder app that connects to an API (Spoonacular) to search for recipes based on ingredients users have. Users can filter by dietary preferences and get detailed cooking instructions.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Website</p>
+
+                  <h3 class="h3 card-title">Online Chat Application</h3>
+
+                  <p class="card-text">
+                    Built a real-time chat application that enables users to join chat rooms, send messages, and interact with others.
+                    Implemented user authentication and room creation functionality.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+          <h2 class="h2 section-title">Contact Me</h2>
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <!--<h2 class="h2 section-title">If you like what you see, let's work together.</h2>-->
+
+              <p class="section-text">
+                I'm actively seeking new opportunities in the IT field and would love to hear from potential employers and collaborators.
+                If you're interested in discussing how my skills and experience could contribute to your team, please don't hesitate to reach out using the provided contact information.
+                I'm eager to explore how I can make a positive impact and be a valuable addition to your organization.
+                Looking forward to connecting with you!
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2023 Kael Finley
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="dark-mode">
+            <ion-icon name="moon-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
